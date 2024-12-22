@@ -1,0 +1,13 @@
+GET http://localhost:8000/articles
+
+###
+POST http://localhost:8000/articles
+Content-Type: application/json
+
+{
+    "title" : "Revels Day One",
+    "content" : "xxxx xxxx xxxx",
+    "author" : "Deepali Vengala",
+    "thumbnail" : "https://themitpost.com/wp-content/uploads/2024/09/Screenshot-2024-09-11-151351.jpg",
+    "date" : "2024-12-22"
+}
