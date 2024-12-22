@@ -17,7 +17,7 @@ function Upload() {
         console.log(title,content,author,thumbnail,date);
         console.log(article_object);
 
-        fetch( 'https://your-backend-name.onrender.com/articles/' , {
+        fetch( 'https://full-stack-trial.onrender.com/articles/' , {
             method: 'POST',
             headers: {"Content-Type" : "application/json"},
             body: JSON.stringify(article_object)
