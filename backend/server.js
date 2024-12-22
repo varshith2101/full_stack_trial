@@ -5,7 +5,7 @@ const app = express();
 const cors = require('cors');
 
 app.use(cors({
-    origin: 'http://localhost:5174',
+    origin: 'https://admin-page-varshith.vercel.app',
     methods: ["POST" , "GET"],
     credentials: true
 }))

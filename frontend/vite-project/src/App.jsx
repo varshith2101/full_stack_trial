@@ -13,7 +13,7 @@ function App() {
 
 
 const getArticles = async () => {
-  const articles = await fetch( 'http://localhost:8000/articles/' , {
+  const articles = await fetch( 'https://your-backend-name.onrender.com/articles/' , {
       method: 'GET',
       headers: {"Content-Type" : "application/json"}, // put everytime i guess
   });
